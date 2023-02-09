@@ -3,7 +3,6 @@
 from django.urls import reverse
 from menu import Menu, MenuItem
 
-Menu.add_item("main", MenuItem("Composer", reverse("core_composer_index")))
 
 
 types_children = (
